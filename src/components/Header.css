@@ -1,0 +1,13 @@
+.header{
+    background-color: brown;
+    width: screen;
+    height: 200px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.titulo{
+    margin: 20px;
+}

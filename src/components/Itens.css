@@ -1,0 +1,26 @@
+.item{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.foto {
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+  }
+
+.local{
+    font-weight: bold;
+}
+
+.preco{
+    color: green;
+}
+
+.descricao{
+    margin-top: 10px;
+}
