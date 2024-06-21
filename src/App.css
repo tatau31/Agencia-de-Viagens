@@ -1,22 +1,22 @@
-.container{
-    max-width: 1280px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
+.container {
+  max-width: 1280px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 }
 
-.titulo_lista{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.titulo_lista {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.pesquisa{
-    display: flex;
-    align-items: center;
-    gap: 3px;
+.pesquisa_div {
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
-.icone{
-    height: 21px;    
+.icone {
+  height: 21px;
 }
