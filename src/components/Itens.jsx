@@ -9,7 +9,7 @@ export default function Itens({viagem, viagens, setViagens}){
 
         viagens2.map(viagem2 => {
             
-            if (viagem2.titulo === viagem.titulo){
+            if (viagem2.titulo == viagem.titulo){
                 viagem2.interessados++
             }
         })

@@ -1,16 +1,26 @@
 [
     {
-        "titulo": "Promoção",
+        "titulo": "Promoção da melhor",
         "local": "Bahamas",
         "preco": "R$ 6.990,00", 
-        "descricao": "viagem linda para bahamas muito bom mesmo",
-        "foto": "https://escapemagazine.com.br/wp-content/uploads/2024/02/Bahamas.jpeg"
+        "descricao": "Promoção da nossa melhor viagem para Bahamas, a mais bem avaliada, com tudo incluso, passagem, hospedagem e alimentação. Aproveite!",
+        "foto": "https://escapemagazine.com.br/wp-content/uploads/2024/02/Bahamas.jpeg",
+        "interessados": 0
     },
     {
-        "titulo": "Promoção",
-        "local": "Bahamas",
-        "preco": "R$ 6.990,00", 
-        "descricao": "viagem linda para bahamas muito bom mesmo",
-        "foto": "https://escapemagazine.com.br/wp-content/uploads/2024/02/Bahamas.jpeg"
+        "titulo": "Amor de Inverno",
+        "local": "Serra Gáucha",
+        "preco": "R$ 5.390,00", 
+        "descricao": "Nosso melhor pacote para casais aproveitare neste belo tour pela serra gaucha",
+        "foto": "https://topdicasviagens.com.br/wordpress/wp-content/files/topdicasviagens.com.br/2023/11/serra-gaucha.webp",
+        "interessados": 0
+    },
+    {
+        "titulo": "Role de Carioca",
+        "local": "Rio de Janiero - RJ",
+        "preco": "R$ 3.799,00", 
+        "descricao": "Aproveite o melhor das praias cariocas com nosso pacote completo para o Rio de Janeiro",
+        "foto": "https://jpimg.com.br/uploads/2023/05/turismo-no-rio-de-janeiro-veja-o-que-visitar-na-cidade-maravilhosa.jpg",
+        "interessados": 0
     }
 ]

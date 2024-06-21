@@ -9,6 +9,9 @@ export default function NovaViagem({viagens, setViagens}){
 
 
     function CadastraViagem(dados){
+        if (dados.senha != 'admin'){
+            return toast.error('Senha inválida!')
+        }
         const viagens2 = [...viagens]
 
         viagens2.push({
@@ -16,7 +19,8 @@ export default function NovaViagem({viagens, setViagens}){
             local: dados.local,
             descricao: dados.descricao,
             preco: dados.preco,
-            foto: dados.foto
+            foto: dados.foto,
+            interessados: 0
         })
         setViagens(viagens2)
         reset()
@@ -29,6 +33,11 @@ export default function NovaViagem({viagens, setViagens}){
             <div>
                 <h2>Inclusão de Viagens</h2>
                 <form onSubmit={handleSubmit(CadastraViagem)}>
+                    <p>
+                        <label htmlFor="senha">Senha de Administrador:</label>
+                        <input type="text" id="senha"
+                        {...register("senha")}/>
+                    </p>
                     <p>
                         <label htmlFor="titulo">Titulo da viagem</label>
                         <input type="text" id="titulo"
